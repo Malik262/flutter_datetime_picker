@@ -527,8 +527,8 @@ class __ItemViewState extends State<_ItemView> {
               );
             },
             selectionOverlay: CupertinoPickerDefaultSelectionOverlay(
-              capLeftEdge: false,
-              capRightEdge: false,
+              capStartEdge: false,
+              capEndEdge: false,
             ),
           ),
         ),
